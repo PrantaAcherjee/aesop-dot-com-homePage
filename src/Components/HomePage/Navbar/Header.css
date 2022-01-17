@@ -1,0 +1,20 @@
+.p-one{
+    background-color: #a6672b;
+    color: #fffef2;   
+    overflow: visible;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    font-family: "Suisse Regular",  sans-serif;   
+    
+}
+.p-two{
+    background-color: #252525;
+    clear: both;
+    color: #fffef2; 
+    overflow: visible;
+    padding: 12px 20px 8px;  
+    width: 100%;    
+    text-align: center;
+    font-family: "Suisse Regular",  sans-serif;
+}

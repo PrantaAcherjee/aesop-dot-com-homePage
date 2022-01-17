@@ -1,0 +1,22 @@
+.navbar-bg{
+    background-color: #fffef0;
+}
+.menu-style li a {
+    font-size: 14px;
+    font-weight: regular;
+    color: #333333;
+    font-family: "Suisse Medium",sans-serif;
+    padding: 4px;
+    line-height: 5rem;
+    margin-left: 1rem;
+
+}
+ .right-menu{
+    font-size: 14px;
+    font-weight: regular;
+    color: #333333;
+    font-family: "Suisse Medium",sans-serif;
+    padding: 4px;
+    line-height: 5rem;
+    margin-left: 1rem;   
+ }
