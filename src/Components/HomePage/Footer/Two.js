@@ -3,8 +3,11 @@ import './Two.css';
 
 const Two = () => {
     return (
-        <div className='row footer-two'>
-          <div className='col-md-6'>
+        
+        <div className='footer-two'>
+        <div className='row'>
+          <div className="col-md-1"></div>
+          <div className='col-md-4'>
           <div>Sustainability</div>
           <hr />
           <div>
@@ -25,7 +28,7 @@ const Two = () => {
           <div className='a-style my-2'><a href="">Accessibility</a></div>
           </div>
           <div className='col-md-2'>
-          <div>Social Media</div>
+          <div>Social media</div>
            <hr />
           <div className='a-style my-2'><a href="">Instagram </a></div>
           <div className='a-style my-2'><a href="">Twitter </a></div>
@@ -33,12 +36,14 @@ const Two = () => {
           <div className='a-style my-2'><a href="">WeChat</a></div>
           <div className='a-style my-2'><a href="">Weibo </a></div>
           </div>
-          <div className='col-md-2'></div>
-          <hr />
-          <div>
-          <p>© Aesop</p> 
-         </div>  
+          <div className='col-md-3'></div>
+          
+               
         </div>
+        <hr />
+        <p className='footer'>© Aesop </p>
+        </div>
+         
     );
 };
 

@@ -2,17 +2,32 @@
     background-color: #333;
     color: #fffef2;
     font-family: "Suisse Medium", sans-serif;
-     padding: 30px;
+     padding-top: 40px;
+     padding-bottom: 40px;
 }
 .email-input{
     border-color: #fffef2;
     caret-color: #fffef2;
     color: white;
-    margin: 10px;
-    background-color: black;
+    background-color: #333;
+    margin-bottom: 14px;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    
 }
 .a-style a{
 text-decoration: none;
 color: white;
  
+}
+.checkbox-style{
+
+    background-color: black;
+}
+.footer{
+    background-color:#333 ;
+    color: white;
+    padding-left: 110px;
+    
 }

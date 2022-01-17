@@ -4,17 +4,22 @@ import './One.css';
 const One = () => {
     return (
         <div className='row footer-one'>
-           <div className="col-md-6">
+           <div className="col-md-1"></div>
+           <div className="col-md-4">
              <input type="email"
              className='email-input'
-             placeholder='Email address' />
+             placeholder='Email address'
+              
+             />
              <br />
-             <input type="checkbox"/>
-             <span>
-                 <small>
+             <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                <span style={{paddingLeft:'5px'}}>
+                <small>
                  Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our privacy policy
-                 </small>
-            </span>  
+                </small>
+                </span>  
+                </div>            
             </div> 
             <div className="col-md-2">
             <div>Orders and support</div>
@@ -35,7 +40,7 @@ const One = () => {
                 <div className='a-style'><a href="">Facial appointments </a></div>
             </div>
             <div className="col-md-2">
-                <div>Location and preferences</div>
+                <div>Location preferences</div>
                 <hr />
                     <div className='a-style my-2'><a href="">Shipping:
                     Hong Kong (S.A.R)</a></div>
@@ -44,6 +49,7 @@ const One = () => {
                     English</a>
                     </div>
             </div>
+            <div className="col-md-1"></div>
         </div>
     );
 };
