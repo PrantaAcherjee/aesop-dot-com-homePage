@@ -9,7 +9,7 @@ import Carosel from './Components/HomePage/Carosel/Carosel';
 
 function App() {
   return (
-    <div>
+    <div className='bg-white'>
       {/* nav bar  */}
         <Header></Header>
         <Navbar></Navbar>

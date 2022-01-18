@@ -5,7 +5,7 @@ import './Description.css';
 const Description = () => {
     return (
         <div>
-            <div className='row'>
+            <div className='row bg-desc'>
             <div className='col-md-6'>
                 <img src={canvas} alt="" className='img-fluid'/>
             </div>
@@ -15,19 +15,19 @@ const Description = () => {
                 Morning and evening, splash onto a cotton pad or directly into hands, and pat onto freshly cleansed face and neck.
                 </p>
                 <hr />
-                <p style={{fontWeight:'bold'}}>
+                <p  >
                 Dosage </p>
                 
                 <small>Half a teaspoon</small>
                 <hr />
                
-                <p style={{fontWeight:'bold'}}>
+                <p  >
                 Texture </p>
                
                 <small> Aqueous</small>
                 <hr />
                 
-                <p style={{fontWeight:'bold'}}>
+                <p  >
                 Aroma  </p>
                
                 <small> Herbaceous, floral, fresh</small>

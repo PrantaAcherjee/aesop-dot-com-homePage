@@ -1,0 +1,28 @@
+.btn-style{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+}
+.des-head{
+    font-family: "Suisse Regular", sans-serif;
+    font-size: 30px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+.image-style{
+    margin-top: 110px;
+    padding-top: 20px;
+}
+.description-div{
+    padding-right:100px ;
+}
+.radio-items{
+    padding-Right: 10px;
+    color: #252525;
+}
+.paragraph{
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
