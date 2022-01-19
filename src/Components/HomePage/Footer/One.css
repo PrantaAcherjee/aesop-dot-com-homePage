@@ -6,15 +6,14 @@
      padding-bottom: 40px;
 }
 .email-input{
-    border-color: #fffef2;
-    caret-color: #fffef2;
+    border-color: white;
     color: white;
-    background-color: #333;
+    background-color:#333;
     margin-bottom: 14px;
     width: 100%;
     border-radius: 5px;
     height: 40px;
-    
+    font-size: 20px;
 }
 .a-style a{
 text-decoration: none;

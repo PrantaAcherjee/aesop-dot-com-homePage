@@ -3,7 +3,8 @@ import './One.css';
 
 const One = () => {
     return (
-        <div className='row footer-one'>
+        <div className='footer-one'>
+            <div className='row'>
            <div className="col-md-1"></div>
            <div className="col-md-4">
              <input type="email"
@@ -23,10 +24,10 @@ const One = () => {
             </div> 
             <div className="col-md-2">
             <div>Orders and support</div>
-            <hr />
-             
+             <div className='h-r-2'></div>         
+            <div className='a-style'><a href="">Contact Us</a></div>
+            <div className='a-style my-2'> <a href="">FAQs</a></div>
             <div className='a-style my-2'><a href="">Shipping</a></div>
-            <div className='a-style'> <a href="">FAQs</a></div>
             <div className='a-style my-2'> <a href="">Returns</a></div>
             <div className='a-style my-2'> <a href="">Orders History</a></div>
             <div className='a-style my-2'> <a href="">Terms & Condition</a></div>        
@@ -34,14 +35,14 @@ const One = () => {
             </div>
             <div className="col-md-2">
                 <div>Services</div> 
-                <hr />
+                <div className='h-r-2'></div> 
                 <div className='a-style my-2'><a href="">Live assistance</a> </div>
                 <div className='a-style my-2'><a href="">Corporate gifts</a> </div>
                 <div className='a-style'><a href="">Facial appointments </a></div>
             </div>
             <div className="col-md-2">
                 <div>Location preferences</div>
-                <hr />
+                <div className='h-r-2'></div> 
                     <div className='a-style my-2'><a href="">Shipping:
                     Hong Kong (S.A.R)</a></div>
                     <div className='a-style my-2'>
@@ -50,6 +51,7 @@ const One = () => {
                     </div>
             </div>
             <div className="col-md-1"></div>
+        </div>
         </div>
     );
 };

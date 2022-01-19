@@ -5,11 +5,11 @@ const Two = () => {
     return (
         
         <div className='footer-two'>
-        <div className='row'>
+        <div className='row pb-2'>
           <div className="col-md-1"></div>
           <div className='col-md-4'>
           <div>Sustainability</div>
-          <hr />
+          <div className='h-r-2'></div> 
           <div>
               <p>
              <small>
@@ -20,7 +20,7 @@ const Two = () => {
           </div>
           <div className='col-md-2'>
           <div>About</div>
-          <hr />
+          <div className='h-r-2'></div> 
           <div className='a-style my-2'><a href="">Our story</a></div>
           <div className='a-style my-2'><a href="">Foundation</a></div>
           <div className='a-style my-2'><a href="">Careers</a></div>
@@ -29,7 +29,7 @@ const Two = () => {
           </div>
           <div className='col-md-2'>
           <div>Social media</div>
-           <hr />
+          <div className='h-r-2'></div> 
           <div className='a-style my-2'><a href="">Instagram </a></div>
           <div className='a-style my-2'><a href="">Twitter </a></div>
           <div className='a-style my-2'><a href="">LinkedIn </a></div>
@@ -40,8 +40,8 @@ const Two = () => {
           
                
         </div>
-        <hr />
-        <p className='footer'>© Aesop </p>
+        <div className='h-r'></div>
+        <div className='footer pt-3 fs-5'>© Aesop </div>
         </div>
          
     );

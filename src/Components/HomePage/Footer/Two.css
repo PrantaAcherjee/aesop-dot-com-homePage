@@ -3,5 +3,19 @@
     color: #fffef2;
     font-family: "Suisse Medium", sans-serif;
       padding-top: 40px;
-      padding-bottom: 40px;
+      padding-bottom: 40px;  
 }
+ .h-r{
+   border-bottom: 2px solid white;
+   padding-top: 30px;
+ }
+ .h-r-1{
+   border-bottom: 2px solid black;
+   padding-bottom: 10px;
+   
+ }
+ .h-r-2{
+   border-bottom: 1px solid white;
+    padding-bottom: 20px;  
+ }
+   
