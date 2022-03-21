@@ -5,7 +5,7 @@ import './Description.css';
 const Description = () => {
     return (
 <div className='des-width'>
-<div className='total-height'>
+<div>
             <div className='row bg-desc'>
             <div className='col-md-6'>
                 <img src={canvas} alt="" className='img-fluid images-style'/>

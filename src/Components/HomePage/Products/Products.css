@@ -29,3 +29,10 @@
 .padding-bottom{
     margin-bottom: 147px;
 }
+
+
+    @media only screen and (max-width: 600px) {
+        .description-div{
+             margin-left: 15px;
+        } 
+      }

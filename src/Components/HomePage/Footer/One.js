@@ -31,7 +31,7 @@ const One = () => {
             <div className='a-style my-3'> <a href="">Returns</a></div>
             <div className='a-style my-3'> <a href="">Orders History</a></div>
             <div className='a-style my-3'> <a href="">Terms & Condition</a></div>        
-            
+            {/* 1st part end */}
             </div>
             <div className="col-md-2">
                 <div>Services</div> 

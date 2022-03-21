@@ -12,11 +12,12 @@ const Products = () => {
             <div style={{fontSize:'40px',color:'#333333',paddingLeft:'30px'}}>Aesop</div> 
             </div>
            
-             <div className="col-md-4 image-style">            
+             <div className="col-md-4  image-style">            
               <img src={product} alt="" className='img-fluid' />
              </div>
              
-             <div className="col-md-4 description-div">
+             <div className="col-md-4
+             description-div">
                  <div className='my-2'><span style={{paddingRight:'20px'}}>Skin</span><span>Tone</span></div>
                  <div class='des-head'>
                  Parsley Seed Anti-Oxidant Facial Toner

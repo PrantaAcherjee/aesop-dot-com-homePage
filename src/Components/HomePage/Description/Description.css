@@ -12,13 +12,10 @@
     background-color: rgb(248, 242, 242);
     
 }
-.total-height{
-    height: 700px;
-    margin-bottom: 150px;
-    
-}
+
 .images-style{
 height: 700px;
+object-fit: cover;
 
 }
 .des-width{

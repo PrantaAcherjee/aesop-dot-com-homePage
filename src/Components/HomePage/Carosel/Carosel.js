@@ -27,15 +27,14 @@ const Carosel = () => {
     return (
           <div className="bg-white carosel-style">
            
-           <Swiper onSwiper={setSwiperRef} slidesPerView={3} centeredSlides={true} spaceBetween={30} navigation={true} className="mySwiper">
+           <Swiper onSwiper={setSwiperRef} slidesPerView={3} centeredSlides={true} spaceBetween={50} navigation={true} className="mySwiper">
            <h2>Others also considered</h2>
-  <SwiperSlide>
-  <img src={one} style={{height:'50%',width:'60%',marginTop:'200px'}} alt="" /></SwiperSlide>
-  <SwiperSlide><img src={two} alt="" /> </SwiperSlide>
-  <SwiperSlide><img src={three} alt="" /></SwiperSlide>
-  <SwiperSlide><img src={four} alt="" /></SwiperSlide>
-  <SwiperSlide><img src={five} alt="" /></SwiperSlide>
-  <SwiperSlide><img src={six} alt="" /></SwiperSlide>
+  <SwiperSlide><img src={six} alt=""/></SwiperSlide>
+  <SwiperSlide><img src={two} alt=""/> </SwiperSlide>
+  <SwiperSlide><img src={three} alt=""/></SwiperSlide>
+  <SwiperSlide><img src={four} alt=""/></SwiperSlide>
+  <SwiperSlide><img src={five} alt=""/></SwiperSlide>
+  <SwiperSlide><img src={six} alt=""/></SwiperSlide>
   </Swiper> 
   </div>
 
